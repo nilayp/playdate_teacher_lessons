@@ -91,14 +91,49 @@ We can also use the gfx.drawText() to "draw" text onto the Playdate window. The 
 
 There is another way to run our code using the debugger. This allows us to pause the code execution and see what the state of the variables are at any moment. And then, you can execute the code one line at a time, watching how the variables change as the code is running.
 
-## Lesson 3 - Drawing characters
-TODO - describe what 1Bit drawings are
-Let's use a tool called PiskelApp to create our drawings.
-https://www.piskelapp.com/p/create/sprite/
+## Drawing characters using [PiskelApp](https://www.piskelapp.com/p/create/sprite/)
+PiskelApp is a great application to create images. However, you must save the images in the PiskelApp format so you can load them back into the editor in the future. However, the PiskelApp format is only useful for PiskelApp. If you want to use your images in other software, for example on the Playdate, you need to convert to an universal file format. One such format is PNG. 
 
-Creating images.
-Saving files
-Exporting images
-Importing files
+Teach students how to create images. Then, teach how and where these files should be saved. Explain file extensions. Load the file to bring it back into PiskelApp. Show how to export and where those exports should be saved.
 
-## Lesson 4 - 
+# Lessons per Day
+
+## Day 1
+* Setup environment
+* Teach variables, assignment, math, string and relational operators
+* Debug (print(), DrawText, IDE)
+* Comments
+* Teach PiskelApp
+    * Saving Piskel files
+    * Saving PNG
+    * Importance of organizing these in Finder/Explorer
+
+## Day 2
+* Conditionals, Booleans, Loops
+
+## Day 3
+* The basics of the Playdate SDK.
+    * How to create a sprite
+    * How to assign a graphic to the sprite
+    * How to move the sprite with the buttons
+    * How to move the sprite automatically
+* Modulo operator
+
+## Day 4
+* Arrays & Dictionaries
+* Creating ten enemies in a loop & assign to an array
+* Referencing arrays
+* Determining the length of an array
+* Animate Multiple enemies
+* how to add/remove elements from arrays and dictionaries
+
+## Day 5
+* Reference element within an array
+* Add different sprites to an array
+
+## Day 6
+* Player Bullets
+* Enemy Lasers
+* Collisions
+* Game Over
+* Score
